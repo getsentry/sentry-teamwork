@@ -5,7 +5,7 @@ import sentry_teamwork
 from django import forms
 from django.utils.translation import ugettext_lazy as _
 from requests.exceptions import RequestException
-from sentry.plugins import JSONResponse
+from sentry.plugins.base import JSONResponse
 from sentry.plugins.bases.issue import IssuePlugin, NewIssueForm
 from sentry.utils.http import absolute_uri
 
